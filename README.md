@@ -1,16 +1,85 @@
-# app_lista_compras
+# App Lista de Compras
 
-A new Flutter project.
+## Descrição
 
-## Getting Started
+O **App Lista de Compras** é um aplicativo mobile desenvolvido em Flutter com o objetivo de auxiliar usuários na organização de suas compras do dia a dia.  
+O sistema permite criar listas, adicionar itens, marcar produtos como comprados e acompanhar o progresso de cada lista.
 
-This project is a starting point for a Flutter application.
+O projeto foi desenvolvido com foco em simplicidade, usabilidade e aprendizado em desenvolvimento mobile.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Criar listas de compras
+- Adicionar itens às listas
+- Informar nome e valor dos produtos
+- Marcar itens como comprados
+- Exibir progresso por lista
+- Calcular total de itens marcados e não marcados
+- Interface simples e intuitiva
+- Atualização automática dos dados
+
+---
+
+## Tecnologias Utilizadas
+
+- Flutter
+- Dart
+- Material Design
+- Git e GitHub
+
+---
+
+## Estrutura do Projeto
+
+
+```text
+lib/
+├── model/
+│   ├── Item.dart
+│   └── ListaCompra.dart
+├── pages/
+│   ├── add_list.page.dart
+│   ├── compras_list.page.dart
+│   └── datail_list.page.dart
+├── widgets/
+│   └── add_item.widget.dart
+│   └── listaDeCompras.widget.dart
+│   └── telaVazia.widget.dart
+└── main.dart
+```
+
+
+
+---
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- Flutter instalado  
+- Android Studio ou VS Code  
+- Emulador configurado ou dispositivo físico  
+
+### Passos
+
+1. Clone o repositório:
+
+```bash
+git clone git@github.com:Lucas12310/app-lista-compras.git
+
+
+Acesse a pasta do projeto:
+
+cd app_lista_compras
+
+
+Instale as dependências:
+
+flutter pub get
+
+
+Execute o aplicativo:
+
+flutter run
